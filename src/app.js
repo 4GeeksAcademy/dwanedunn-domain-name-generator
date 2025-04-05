@@ -6,6 +6,7 @@ import './assets/img/4geeks.ico';
 
 window.onload = function () {
   //write your code here
+  generateDomainNames();
   console.log('Hello Rigo from the console!');
 };
 
@@ -37,3 +38,4 @@ function generateDomainNames() {
   return domainNames;
 }
 // Function to display the domain names in the console
+generateDomainNames();
