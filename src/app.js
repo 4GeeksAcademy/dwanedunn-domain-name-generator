@@ -37,5 +37,7 @@ function generateDomainNames() {
   }
   return domainNames;
 }
-// Function to display the domain names in the console
-generateDomainNames();
+//display the domain names in the console
+domainNames.forEach((domainName) => {
+  console.log(domainName);
+});
